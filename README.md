@@ -1,27 +1,64 @@
-# React + TypeScript + Vite
+<h1>Converter Xlsx</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Converter Xlsx é uma aplicação que permite a conversão de arquivos Excel para exibir as informações em tela, realizar edições e fazer o download novamente dos arquivos convertidos. A aplicação possui uma interface visual desenvolvida em React.js com TypeScript.</p>
 
-Currently, two official plugins are available:
+<h2>Funcionalidades</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+  <li>Converter arquivos Excel para exibir informações em tela.</li>
+  <li>Permitir a edição das informações exibidas.</li>
+  <li>Fazer o download dos arquivos convertidos.</li>
+</ul>
 
-## Expanding the ESLint configuration
+<h2>🚀 Começando</h2>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p>Siga as instruções abaixo para obter uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste.</p>
 
-- Configure the top-level `parserOptions` property like this:
+<h3>Pré-requisitos</h3>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+<p>Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:</p>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<ul>
+  <li>Node.js</li>
+  <li>npm (gerenciador de pacotes do Node.js)</li>
+</ul>
+
+<h3>Instalação</h3>
+
+<ol>
+  <li>Clone o repositório para sua máquina local:</li>
+  <hr>
+  <pre><code>git clone https://github.com/Brokollis/ConverterXls.git</code></pre>
+  <hr>
+  <li>Instale as dependências:</li>
+  <hr>
+  <pre><code>npm install</code></pre>
+  <hr>
+</ol>
+
+<p>Para iniciar a aplicação digite:</p>
+ <hr>
+  <pre><code>npm run dev</code></pre>
+  <hr>
+
+<h2>🛠️ Construído com</h2>
+
+<ul>
+  <li>TypeScript - Linguagem de programação utilizada.</li>
+  <li>React.js - Biblioteca JavaScript para construção de interfaces de usuário.</li>
+  <li>Styled Components - Biblioteca para estilização de componentes React.</li>
+  <li>Material UI - Biblioteca de componentes de interface de usuário.</li>
+  <li>Xlsx - Biblioteca para manipulação de arquivos Excel.</li>
+</ul>
+
+<h2>📌 Versão</h2>
+
+<p>Este projeto encontra-se em construção e está em sua primeira versão.</p>
+
+<h2>✒️ Autor</h2>
+
+<p>Vitor Aguiar - <a href =" https://www.linkedin.com/in/vitor-aguiar-ab3937192">LinkedIn</a></p>
+
+<h2>🚧 Em construção</h2>
+
+<p>Converter Xlsx ainda está em desenvolvimento, e novas funcionalidades podem estar indisponíveis ou incompletas. Estamos trabalhando duro para finalizar o projeto o mais rápido possível e entregar a melhor experiência aos usuários. Agradecemos sua compreensão e paciência!!</p>
